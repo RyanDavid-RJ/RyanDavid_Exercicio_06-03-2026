@@ -5,15 +5,15 @@
 }
 
 body {
-  background-color: #f4f4f9; /* Fundo cinza bem clarinho */
-  color: #333333; /* Texto escuro para dar leitura */
+  background-color: #f4f4f9; 
+  color: #333333; 
   font-family: Arial, Helvetica, sans-serif;
 }
 
-/* Essa classe vai dar um respiro (margem) para o texto não colar nas bordas */
+
 .page-container {
   padding: 40px;
-  min-height: 70vh; /* Empurra o rodapé lá para baixo */
+  min-height: 70vh; 
 }
 
 ul {

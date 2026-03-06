@@ -4,9 +4,9 @@ function Contato() {
       <h1>Fale Conosco</h1>
       <p>Estamos prontos para atender você. Entre em contato pelos canais abaixo:</p>
       <ul>
-        <li><strong>Email:</strong> contato@techsolutions.com.br</li>
-        <li><strong>Telefone:</strong> (21) 99999-0000</li>
-        <li><strong>Endereço:</strong> Centro Comercial de Tecnologia, Rio de Janeiro - RJ</li>
+        <li><strong>Email:</strong> ryandavid@techsolutions.com.br</li>
+        <li><strong>Telefone:</strong> (21) 4002-8922</li>
+        <li><strong>Endereço:</strong> Estrada dos Louros, Um Facho de Luz - FOGO</li>
       </ul>
     </div>
   );

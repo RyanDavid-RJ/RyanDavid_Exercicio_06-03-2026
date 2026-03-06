@@ -1,5 +1,5 @@
 .footer-container {
-    background-color: #7a1122; /* Mudou para Grená! */
+    background-color: #7a1122; 
     color: #ffffff;
     text-align: center;
     padding: 20px 0;
@@ -14,5 +14,5 @@
   }
   
   .redes-sociais span:hover {
-    color: #005a3b; /* Fica verde ao passar o mouse */
+    color: #005a3b; 
   }

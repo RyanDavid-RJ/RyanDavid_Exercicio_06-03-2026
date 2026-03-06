@@ -4,7 +4,7 @@ import './Menu.css';
 function Menu() {
   return (
     <nav className="menu-container">
-      {/* Aqui entra o escudo mágico na esquerda! */}
+     
       <div className="menu-logo">
         <Link to="/">
           <img 
@@ -14,7 +14,7 @@ function Menu() {
         </Link>
       </div>
 
-      {/* Os links na direita */}
+     
       <ul className="menu-lista">
         <li><Link to="/">Home</Link></li>
         <li><Link to="/produtos">Produtos</Link></li>

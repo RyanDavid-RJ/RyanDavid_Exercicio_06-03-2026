@@ -1,7 +1,7 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 import Menu from './components/Menu';
-import Footer from './components/Footer'; // <-- Importamos o Footer aqui!
+import Footer from './components/Footer'; 
 
 import Home from './pages/Home';
 import Produtos from './pages/Produtos';
@@ -20,7 +20,7 @@ function App() {
         <Route path="/contato" element={<Contato />} />
       </Routes>
 
-      <Footer /> {/* <-- Colocamos o Footer aqui no final! */}
+      <Footer />
     </BrowserRouter>
   );
 }
