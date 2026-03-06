@@ -1,21 +1,26 @@
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-// Importamos APENAS as páginas que já existem na sua pasta 'pages'
+import Menu from './components/Menu';
+import Footer from './components/Footer'; // <-- Importamos o Footer aqui!
+
 import Home from './pages/Home';
-import Contatos from './pages/Contatos';
-import Sobre from './pages/Sobre';
+import Produtos from './pages/Produtos';
+import Empresa from './pages/Empresa';
+import Contato from './pages/Contato';
 
 function App() {
   return (
     <BrowserRouter>
+      <Menu />
+
       <Routes>
-        {/* A Home agora é a nossa página inicial (caminho "/") */}
         <Route path="/" element={<Home />} />
-        
-        {/* Novas rotas para as outras páginas */}
-        <Route path="/contatos" element={<Contatos />} />
-        <Route path="/sobre" element={<Sobre />} />
+        <Route path="/produtos" element={<Produtos />} />
+        <Route path="/empresa" element={<Empresa />} />
+        <Route path="/contato" element={<Contato />} />
       </Routes>
+
+      <Footer /> {/* <-- Colocamos o Footer aqui no final! */}
     </BrowserRouter>
   );
 }
