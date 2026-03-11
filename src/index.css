@@ -95,3 +95,27 @@ button:hover {
   }
 }
 
+/* Correção do Menu para Celulares */
+@media(max-width: 768px) {
+  .menu-container {
+    flex-direction: column; /* Coloca a logo em cima e links embaixo */
+    padding: 15px 10px;
+    gap: 15px; /* Espaço entre a logo e os links */
+  }
+
+  .menu-lista {
+    gap: 15px; /* Diminui o espaço entre as palavras */
+    flex-wrap: wrap; /* Deixa os links pularem de linha se precisarem */
+    justify-content: center;
+  }
+
+  .menu-lista li a {
+    font-size: 0.9rem; /* Diminui um pouquinho a letra */
+  }
+}
+
+/* Trava de segurança para impedir a tela de rolar para o lado */
+body, html {
+  overflow-x: hidden;
+}
+
