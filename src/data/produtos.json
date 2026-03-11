@@ -1,0 +1,14 @@
+[
+  { "id": 1, "nome": "Camisa Tricolor I", "imagem": "https://picsum.photos/200?1", "descricao": "Armadura principal do Fluminense" },
+  { "id": 2, "nome": "Camisa Branca II", "imagem": "https://picsum.photos/200?2", "descricao": "Camisa branca de jogo" },
+  { "id": 3, "nome": "Camisa Grená III", "imagem": "https://picsum.photos/200?3", "descricao": "Terceiro uniforme especial" },
+  { "id": 4, "nome": "Casaco de Viagem", "imagem": "https://picsum.photos/200?4", "descricao": "Casaco oficial comissão técnica" },
+  { "id": 5, "nome": "Copo Oficial Maracanã", "imagem": "https://picsum.photos/200?5", "descricao": "Copo de colecionador" },
+  { "id": 6, "nome": "Boné Fluminense", "imagem": "https://picsum.photos/200?6", "descricao": "Boné aba curva escudo bordado" },
+  { "id": 7, "nome": "Bandeira Oficial", "imagem": "https://picsum.photos/200?7", "descricao": "Bandeira 2 panos tricolor" },
+  { "id": 8, "nome": "Mochila Flu", "imagem": "https://picsum.photos/200?8", "descricao": "Mochila escolar/viagem" },
+  { "id": 9, "nome": "Garrafa Térmica", "imagem": "https://picsum.photos/200?9", "descricao": "Garrafa de aço inox" },
+  { "id": 10, "nome": "Chaveiro Escudo", "imagem": "https://picsum.photos/200?10", "descricao": "Chaveiro de metal premium" },
+  { "id": 11, "nome": "Toalha de Banho", "imagem": "https://picsum.photos/200?11", "descricao": "Toalha aveludada do Fluzão" },
+  { "id": 12, "nome": "Meião de Jogo", "imagem": "https://picsum.photos/200?12", "descricao": "Meião oficial tricolor" }
+]
